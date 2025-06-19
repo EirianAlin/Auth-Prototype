@@ -1,0 +1,110 @@
+.home_wrapper {
+  margin: 0 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home_wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.home_wrapper .logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.home_wrapper .logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.home_wrapper nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0f3b8f;
+  font-weight: 500;
+}
+.home_wrapper nav a:hover {
+  text-decoration: underline;
+}
+
+.home_wrapper .sign-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.home_wrapper .sign-buttons .signup-btn {
+  background-color: #e2e6f1;
+  color: #0f3b8f;
+}
+.home_wrapper .sign-buttons .signin-btn {
+  background-color: #377dff;
+  color: white;
+}
+
+.home_wrapper main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 45px;
+}
+
+.home_wrapper .hero-text {
+  max-width: 500px;
+}
+.home_wrapper .hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.home_wrapper .hero-text h1 span {
+  color: #377dff;
+}
+.home_wrapper .hero-text p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+.home_wrapper .hero-text .getstarted-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #e2e6f1;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home_wrapper .hero-img img {
+  max-width: 600px;
+}
+
+.home_wrapper .signup-btn:hover,
+.home_wrapper .signin-btn:hover,
+.home_wrapper .getstarted-btn:hover {
+  background-color: #fdd563;
+}
+
+.home_wrapper footer {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .home_wrapper main {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .home_wrapper .hero-img img {
+    margin-top: 30px;
+    width: 100%;
+  }
+}

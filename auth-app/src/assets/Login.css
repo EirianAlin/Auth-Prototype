@@ -1,0 +1,95 @@
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box .back-top {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: #0065cb;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.login-box .back-top:hover {
+  color: #fdd563;
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #0065cb;
+  margin-bottom: 30px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.login-box .password-wrapper {
+  position: relative;
+}
+
+.login-box .toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.login-box .toggle-password svg {
+  width: 20px;
+  height: 20px;
+}
+
+.login-box .button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0065cb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.login-box .button:hover {
+  background-color: #fdd563;
+  color: #555;
+}
+
+.login-box .info-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.login-box .info-link a {
+  color: #0065cb;
+  text-decoration: none;
+}
+.login-box .info-link a:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
